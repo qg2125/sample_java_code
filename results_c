@@ -1,0 +1,387 @@
+                      Report Banner - Edit rsm.cfg File
+
+           Resource Standard Metrics (TM) for C, C++, C# and Java
+                   Version 7.75 - mSquaredTechnologies.com
+
+  License Type: Shareware Evaluation License
+  Licensed To : Shareware End User - Distribute Freely
+  License No. : SW1380                          License Date: Dec 05, 1998
+  Build Date  : Sep  2 2009                         Run Date: Apr 25, 2023
+  (C)1996-2009 M Squared Technologies LLC
+  ________________________________________________________________________
+
+  License File: ../rsm.lic
+  Config. File: ../rsm.cfg
+  Command Line: -c Employee.java Person.java Personnel.java PersonnelDirec
+                tory.java PersonnelFactory.java 
+                           ~~ Function Metrics ~~
+                          ~~ Complexity Analysis ~~
+
+  File: Employee.java
+  ________________________________________________________________________
+
+  Function: Employee.Employee
+  Parameters: (String last, String first, String middle, int id, double sa
+              l)
+  Complexity   Param 5       Return 1      Cyclo Vg 1       Total        7
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        6
+
+  Function: Employee.getID
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 1        lLOC 1        Comment 0        Lines        4
+
+  Function: Employee.getSalary
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 1        lLOC 1        Comment 0        Lines        4
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 17       eLOC 11       lLOC 7        Comment 0        Lines       24
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         11  Total Function Pts LOC :        0.3
+  Total Function eLOC....:          6  Total Function Pts eLOC:        0.2
+  Total Function lLOC....:          5  Total Function Pts lLOC:        0.1
+  Total Function Params .:          5  Total Function Return .:          3
+  Total Cyclo Complexity :          3  Total Function Complex.:         11
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:          5  Average Function LOC ..:       3.67
+  Max Function eLOC .....:          4  Average Function eLOC .:       2.00
+  Max Function lLOC .....:          3  Average Function lLOC .:       1.67
+         ------     -----     -----     ------     ------     -----       
+  Max Function Parameters:          5  Avg Function Parameters:       1.67
+  Max Function Returns ..:          1  Avg Function Returns ..:       1.00
+  Max Interface Complex. :          6  Avg Interface Complex. :       2.67
+  Max Cyclomatic Complex.:          1  Avg Cyclomatic Complex.:       1.00
+  Max Total Complexity ..:          7  Avg Total Complexity ..:       3.67
+  ________________________________________________________________________
+  End of File: Employee.java
+
+
+  File: Person.java
+  ________________________________________________________________________
+
+  Function: Person.Person
+  Parameters: (String last, String first, String middle)
+  Complexity   Param 3       Return 1      Cyclo Vg 1       Total        5
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        6
+
+  Function: Person.getFirst
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 1        eLOC 1        lLOC 1        Comment 0        Lines        1
+
+  Function: Person.getLast
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: Person.getMiddle
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 17       eLOC 13       lLOC 9        Comment 0        Lines       21
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          4
+  Total Function LOC.....:         12  Total Function Pts LOC :        0.3
+  Total Function eLOC....:          9  Total Function Pts eLOC:        0.2
+  Total Function lLOC....:          6  Total Function Pts lLOC:        0.2
+  Total Function Params .:          3  Total Function Return .:          4
+  Total Cyclo Complexity :          4  Total Function Complex.:         11
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:          5  Average Function LOC ..:       3.00
+  Max Function eLOC .....:          4  Average Function eLOC .:       2.25
+  Max Function lLOC .....:          3  Average Function lLOC .:       1.50
+         ------     -----     -----     ------     ------     -----       
+  Max Function Parameters:          3  Avg Function Parameters:       0.75
+  Max Function Returns ..:          1  Avg Function Returns ..:       1.00
+  Max Interface Complex. :          4  Avg Interface Complex. :       1.75
+  Max Cyclomatic Complex.:          1  Avg Cyclomatic Complex.:       1.00
+  Max Total Complexity ..:          5  Avg Total Complexity ..:       2.75
+  ________________________________________________________________________
+  End of File: Person.java
+
+
+  File: Personnel.java
+  ________________________________________________________________________
+
+  Function: Personnel.addPersonnel
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 3       Total        4
+  LOC 24       eLOC 20       lLOC 18       Comment 2        Lines       30
+
+  Function: Personnel.foundPersonnel
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 5       Total        6
+  LOC 25       eLOC 17       lLOC 13       Comment 0        Lines       29
+
+  Function: Personnel.printNames
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 5       Total        6
+  LOC 18       eLOC 10       lLOC 6        Comment 0        Lines       25
+
+  Function: Personnel.countEntry
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 76       eLOC 54       lLOC 41       Comment 2        Lines      100
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          4
+  Total Function LOC.....:         70  Total Function Pts LOC :        1.4
+  Total Function eLOC....:         49  Total Function Pts eLOC:        1.0
+  Total Function lLOC....:         38  Total Function Pts lLOC:        0.8
+  Total Function Params .:          0  Total Function Return .:          4
+  Total Cyclo Complexity :         14  Total Function Complex.:         18
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         25  Average Function LOC ..:      17.50
+  Max Function eLOC .....:         20  Average Function eLOC .:      12.25
+  Max Function lLOC .....:         18  Average Function lLOC .:       9.50
+         ------     -----     -----     ------     ------     -----       
+  Max Function Parameters:          0  Avg Function Parameters:       0.00
+  Max Function Returns ..:          1  Avg Function Returns ..:       1.00
+  Max Interface Complex. :          1  Avg Interface Complex. :       1.00
+  Max Cyclomatic Complex.:          5  Avg Cyclomatic Complex.:       3.50
+  Max Total Complexity ..:          6  Avg Total Complexity ..:       4.50
+  ________________________________________________________________________
+  End of File: Personnel.java
+
+
+  File: PersonnelDirectory.java
+  ________________________________________________________________________
+
+  Function: PersonnelDirectory.main
+  Parameters: (String[] args)
+  Complexity   Param 1       Return 1      Cyclo Vg 6       Total        8
+  LOC 22       eLOC 18       lLOC 12       Comment 0        Lines       35
+
+  Function: PersonnelDirectory.displayMenu
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 9        eLOC 7        lLOC 7        Comment 0        Lines       12
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 38       eLOC 30       lLOC 21       Comment 0        Lines       56
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          2
+  Total Function LOC.....:         31  Total Function Pts LOC :        0.7
+  Total Function eLOC....:         25  Total Function Pts eLOC:        0.6
+  Total Function lLOC....:         19  Total Function Pts lLOC:        0.4
+  Total Function Params .:          1  Total Function Return .:          2
+  Total Cyclo Complexity :          7  Total Function Complex.:         10
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         22  Average Function LOC ..:      15.50
+  Max Function eLOC .....:         18  Average Function eLOC .:      12.50
+  Max Function lLOC .....:         12  Average Function lLOC .:       9.50
+         ------     -----     -----     ------     ------     -----       
+  Max Function Parameters:          1  Avg Function Parameters:       0.50
+  Max Function Returns ..:          1  Avg Function Returns ..:       1.00
+  Max Interface Complex. :          2  Avg Interface Complex. :       1.50
+  Max Cyclomatic Complex.:          6  Avg Cyclomatic Complex.:       3.50
+  Max Total Complexity ..:          8  Avg Total Complexity ..:       5.00
+  ________________________________________________________________________
+  End of File: PersonnelDirectory.java
+
+
+  File: PersonnelFactory.java
+  ________________________________________________________________________
+
+  Function: PersonnelFactory.createPersonnel
+  Parameters: (int type, Object[]parameters)
+  Complexity   Param 2       Return 3      Cyclo Vg 3       Total        8
+  LOC 11       eLOC 8        lLOC 3        Comment 2        Lines       17
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 14       eLOC 10       lLOC 4        Comment 2        Lines       23
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          1
+  Total Function LOC.....:         11  Total Function Pts LOC :        0.3
+  Total Function eLOC....:          8  Total Function Pts eLOC:        0.2
+  Total Function lLOC....:          3  Total Function Pts lLOC:        0.1
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          3  Total Function Complex.:          8
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         11  Average Function LOC ..:      11.00
+  Max Function eLOC .....:          8  Average Function eLOC .:       8.00
+  Max Function lLOC .....:          3  Average Function lLOC .:       3.00
+         ------     -----     -----     ------     ------     -----       
+  Max Function Parameters:          2  Avg Function Parameters:       2.00
+  Max Function Returns ..:          3  Avg Function Returns ..:       3.00
+  Max Interface Complex. :          5  Avg Interface Complex. :       5.00
+  Max Cyclomatic Complex.:          3  Avg Cyclomatic Complex.:       3.00
+  Max Total Complexity ..:          8  Avg Total Complexity ..:       8.00
+  ________________________________________________________________________
+  End of File: PersonnelFactory.java
+
+
+  ------------------------------------------------------------------------
+
+                     ~~ Project Analysis For 5 Files ~~
+
+  ------------------------------------------------------------------------
+
+                         ~~ Total Project Summary ~~
+
+  LOC 162      eLOC 118      lLOC 82       Comment 4        Lines      224
+  Average per File, metric/5 files
+  LOC 32       eLOC 23       lLOC 16       Comment 0        Lines       44
+
+  ------------------------------------------------------------------------
+
+                      ~~ Project Functional Metrics ~~
+
+  Function: Employee.Employee
+  Parameters: (String last, String first, String middle, int id, double sa
+              l)
+  Complexity   Param 5       Return 1      Cyclo Vg 1       Total        7
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        6
+
+  Function: Employee.getID
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 1        lLOC 1        Comment 0        Lines        4
+
+  Function: Employee.getSalary
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 1        lLOC 1        Comment 0        Lines        4
+
+  Function: Person.Person
+  Parameters: (String last, String first, String middle)
+  Complexity   Param 3       Return 1      Cyclo Vg 1       Total        5
+  LOC 5        eLOC 4        lLOC 3        Comment 0        Lines        6
+
+  Function: Person.getFirst
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 1        eLOC 1        lLOC 1        Comment 0        Lines        1
+
+  Function: Person.getLast
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: Person.getMiddle
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: Personnel.addPersonnel
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 3       Total        4
+  LOC 24       eLOC 20       lLOC 18       Comment 2        Lines       30
+
+  Function: Personnel.foundPersonnel
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 5       Total        6
+  LOC 25       eLOC 17       lLOC 13       Comment 0        Lines       29
+
+  Function: Personnel.printNames
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 5       Total        6
+  LOC 18       eLOC 10       lLOC 6        Comment 0        Lines       25
+
+  Function: Personnel.countEntry
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 3        eLOC 2        lLOC 1        Comment 0        Lines        3
+
+  Function: PersonnelDirectory.main
+  Parameters: (String[] args)
+  Complexity   Param 1       Return 1      Cyclo Vg 6       Total        8
+  LOC 22       eLOC 18       lLOC 12       Comment 0        Lines       35
+
+  Function: PersonnelDirectory.displayMenu
+  Parameters: ()
+  Complexity   Param 0       Return 1      Cyclo Vg 1       Total        2
+  LOC 9        eLOC 7        lLOC 7        Comment 0        Lines       12
+
+  Function: PersonnelFactory.createPersonnel
+  Parameters: (int type, Object[]parameters)
+  Complexity   Param 2       Return 3      Cyclo Vg 3       Total        8
+  LOC 11       eLOC 8        lLOC 3        Comment 2        Lines       17
+
+  Total: Functions  
+  LOC 135      eLOC 97       lLOC 71       InCmp 27       CycloCmp      31
+  Function Points         FP(LOC) 2.5     FP(eLOC) 1.8    FP(lLOC)     1.3
+
+  ------------------------------------------------------------------------
+
+                      ~~ Project Functional Analysis ~~
+
+  Total Functions .......:         14  Total Physical Lines ..:        178
+  Total LOC .............:        135  Total Function Pts LOC :        2.5
+  Total eLOC ............:         97  Total Function Pts eLOC:        1.8
+  Total lLOC.............:         71  Total Function Pts lLOC:        1.3
+  Total Cyclomatic Comp. :         31  Total Interface Comp. .:         27
+  Total Parameters ......:         11  Total Return Points ...:         16
+  Total Comment Lines ...:          4  Total Blank Lines .....:         40
+         ------     -----     -----     ------     ------     -----       
+  Avg Physical Lines ....:      12.71
+  Avg LOC ...............:       9.64  Avg eLOC ..............:       6.93
+  Avg lLOC ..............:       5.07  Avg Cyclomatic Comp. ..:       2.21
+  Avg Interface Comp. ...:       1.93  Avg Parameters ........:       0.79
+  Avg Return Points .....:       1.14  Avg Comment Lines .....:       0.29
+         ------     -----     -----     ------     ------     -----       
+  Max LOC ...............:         25
+  Max eLOC ..............:         20  Max lLOC ..............:         18
+  Max Cyclomatic Comp. ..:          6  Max Interface Comp. ...:          6
+  Max Parameters ........:          5  Max Return Points .....:          3
+  Max Comment Lines .....:          2  Max Total Lines .......:         35
+         ------     -----     -----     ------     ------     -----       
+  Min LOC ...............:          1
+  Min eLOC ..............:          1  Min lLOC ..............:          1
+  Min Cyclomatic Comp. ..:          1  Min Interface Comp. ...:          1
+  Min Parameters ........:          0  Min Return Points .....:          1
+  Min Comment Lines .....:          0  Min Total Lines .......:          1
+
+  ------------------------------------------------------------------------
+
+                             ~~ File Summary ~~
+
+  C Source Files *.c ....:          0  C/C++ Include Files *.h:          0
+  C++ Source Files *.c* .:          0  C++ Include Files *.h* :          0
+  C# Source Files *.cs ..:          0  Java Source File *.jav*:          5
+  Other File Count ......:          0  Total File Count ......:          5
+
+
+          Shareware evaluation licenses process only 20 files.
+          Paid licenses enable processing for an unlimited number of files.
+
+  ________________________________________________________________________
+
+                      Report Banner - Edit rsm.cfg File
