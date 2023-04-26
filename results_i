@@ -1,0 +1,305 @@
+                      Report Banner - Edit rsm.cfg File
+
+           Resource Standard Metrics (TM) for C, C++, C# and Java
+                   Version 7.75 - mSquaredTechnologies.com
+
+  License Type: Shareware Evaluation License
+  Licensed To : Shareware End User - Distribute Freely
+  License No. : SW1380                          License Date: Dec 05, 1998
+  Build Date  : Sep  2 2009                         Run Date: Apr 25, 2023
+  (C)1996-2009 M Squared Technologies LLC
+  ________________________________________________________________________
+
+  License File: ../rsm.lic
+  Config. File: ../rsm.cfg
+  Command Line: -i Employee.java Person.java Personnel.java PersonnelDirec
+                tory.java PersonnelFactory.java 
+                           ~~ Function Metrics ~~
+                         ~~ Class/Struct Metrics ~~
+
+  File: Employee.java
+  ________________________________________________________________________
+
+  Class: Employee
+  Inheritance: Person
+  Attributes   Publ 0        Prot 0        Private 2        Total        2
+  Methods      Publ 3        Prot 0        Private 0        Total        3
+  LOC 17       eLOC 11       lLOC 7        Comment 0        Lines       23
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 17       eLOC 11       lLOC 7        Comment 0        Lines       24
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          3
+  Total Function LOC.....:         11  Total Function Pts LOC :        0.3
+  Total Function eLOC....:          6  Total Function Pts eLOC:        0.2
+  Total Function lLOC....:          5  Total Function Pts lLOC:        0.1
+  Total Function Params .:          5  Total Function Return .:          3
+  Total Cyclo Complexity :          3  Total Function Complex.:         11
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:          5  Average Function LOC ..:       3.67
+  Max Function eLOC .....:          4  Average Function eLOC .:       2.00
+  Max Function lLOC .....:          3  Average Function lLOC .:       1.67
+  ________________________________________________________________________
+  End of File: Employee.java
+
+
+  File: Person.java
+  ________________________________________________________________________
+
+  Class: Person
+  Attributes   Publ 0        Prot 0        Private 3        Total        3
+  Methods      Publ 4        Prot 0        Private 0        Total        4
+  LOC 17       eLOC 13       lLOC 9        Comment 0        Lines       20
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 17       eLOC 13       lLOC 9        Comment 0        Lines       21
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          4
+  Total Function LOC.....:         12  Total Function Pts LOC :        0.3
+  Total Function eLOC....:          9  Total Function Pts eLOC:        0.2
+  Total Function lLOC....:          6  Total Function Pts lLOC:        0.2
+  Total Function Params .:          3  Total Function Return .:          4
+  Total Cyclo Complexity :          4  Total Function Complex.:         11
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:          5  Average Function LOC ..:       3.00
+  Max Function eLOC .....:          4  Average Function eLOC .:       2.25
+  Max Function lLOC .....:          3  Average Function lLOC .:       1.50
+  ________________________________________________________________________
+  End of File: Person.java
+
+
+  File: Personnel.java
+  ________________________________________________________________________
+
+  Class: Personnel
+  Attributes   Publ 0        Prot 0        Private 2        Total        2
+  Methods      Publ 4        Prot 0        Private 0        Total        4
+  LOC 75       eLOC 53       lLOC 40       Comment 2        Lines       98
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 76       eLOC 54       lLOC 41       Comment 2        Lines      100
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          4
+  Total Function LOC.....:         70  Total Function Pts LOC :        1.4
+  Total Function eLOC....:         49  Total Function Pts eLOC:        1.0
+  Total Function lLOC....:         38  Total Function Pts lLOC:        0.8
+  Total Function Params .:          0  Total Function Return .:          4
+  Total Cyclo Complexity :         14  Total Function Complex.:         18
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         25  Average Function LOC ..:      17.50
+  Max Function eLOC .....:         20  Average Function eLOC .:      12.25
+  Max Function lLOC .....:         18  Average Function lLOC .:       9.50
+  ________________________________________________________________________
+  End of File: Personnel.java
+
+
+  File: PersonnelDirectory.java
+  ________________________________________________________________________
+
+  Class: PersonnelDirectory
+  Attributes   Publ 0        Prot 0        Private 1        Total        1
+  Methods      Publ 2        Prot 0        Private 0        Total        2
+  LOC 36       eLOC 28       lLOC 20       Comment 0        Lines       53
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 38       eLOC 30       lLOC 21       Comment 0        Lines       56
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          2
+  Total Function LOC.....:         31  Total Function Pts LOC :        0.7
+  Total Function eLOC....:         25  Total Function Pts eLOC:        0.6
+  Total Function lLOC....:         19  Total Function Pts lLOC:        0.4
+  Total Function Params .:          1  Total Function Return .:          2
+  Total Cyclo Complexity :          7  Total Function Complex.:         10
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         22  Average Function LOC ..:      15.50
+  Max Function eLOC .....:         18  Average Function eLOC .:      12.50
+  Max Function lLOC .....:         12  Average Function lLOC .:       9.50
+  ________________________________________________________________________
+  End of File: PersonnelDirectory.java
+
+
+  File: PersonnelFactory.java
+  ________________________________________________________________________
+
+  Class: PersonnelFactory
+  Attributes   Publ 0        Prot 0        Private 0        Total        0
+  Methods      Publ 1        Prot 0        Private 0        Total        1
+  LOC 13       eLOC 9        lLOC 3        Comment 2        Lines       20
+
+  ------------------------------------------------------------------------
+
+                          ~~ Total File Summary ~~
+
+  LOC 14       eLOC 10       lLOC 4        Comment 2        Lines       23
+  ------------------------------------------------------------------------
+
+                        ~~ File Functional Summary ~~
+
+  File Function Count....:          1
+  Total Function LOC.....:         11  Total Function Pts LOC :        0.3
+  Total Function eLOC....:          8  Total Function Pts eLOC:        0.2
+  Total Function lLOC....:          3  Total Function Pts lLOC:        0.1
+  Total Function Params .:          2  Total Function Return .:          3
+  Total Cyclo Complexity :          3  Total Function Complex.:          8
+         ------     -----     -----     ------     ------     -----       
+  Max Function LOC ......:         11  Average Function LOC ..:      11.00
+  Max Function eLOC .....:          8  Average Function eLOC .:       8.00
+  Max Function lLOC .....:          3  Average Function lLOC .:       3.00
+  ________________________________________________________________________
+  End of File: PersonnelFactory.java
+
+
+  ------------------------------------------------------------------------
+
+                     ~~ Project Analysis For 5 Files ~~
+
+  ------------------------------------------------------------------------
+
+                         ~~ Total Project Summary ~~
+
+  LOC 162      eLOC 118      lLOC 82       Comment 4        Lines      224
+  Average per File, metric/5 files
+  LOC 32       eLOC 23       lLOC 16       Comment 0        Lines       44
+
+  ------------------------------------------------------------------------
+
+                     ~~ Project Class/Struct Metrics ~~
+
+  Class: Employee
+  Inheritance: Person
+  Attributes   Publ 0        Prot 0        Private 2        Total        2
+  Methods      Publ 3        Prot 0        Private 0        Total        3
+  LOC 17       eLOC 11       lLOC 7        Comment 0        Lines       23
+
+  Class: Person
+  Attributes   Publ 0        Prot 0        Private 3        Total        3
+  Methods      Publ 4        Prot 0        Private 0        Total        4
+  LOC 17       eLOC 13       lLOC 9        Comment 0        Lines       20
+
+  Class: Personnel
+  Attributes   Publ 0        Prot 0        Private 2        Total        2
+  Methods      Publ 4        Prot 0        Private 0        Total        4
+  LOC 75       eLOC 53       lLOC 40       Comment 2        Lines       98
+
+  Class: PersonnelDirectory
+  Attributes   Publ 0        Prot 0        Private 1        Total        1
+  Methods      Publ 2        Prot 0        Private 0        Total        2
+  LOC 36       eLOC 28       lLOC 20       Comment 0        Lines       53
+
+  Class: PersonnelFactory
+  Attributes   Publ 0        Prot 0        Private 0        Total        0
+  Methods      Publ 1        Prot 0        Private 0        Total        1
+  LOC 13       eLOC 9        lLOC 3        Comment 2        Lines       20
+
+  Total: All Classes/Structs
+  Attributes   Publ 0        Prot 0        Private 8        Total        8
+  Methods      Publ 14       Prot 0        Private 0        Total       14
+  LOC 158      eLOC 114      lLOC 79       Comment 4        Lines      214
+
+  ------------------------------------------------------------------------
+
+  Total Classes/Structs .:          5  Total Methods .........:         14
+  Total Public Methods ..:         14  Total Public Attributes:          0
+  Total Protected Methods:          0  Total Protected Attrib.:          0
+  Total Private Methods .:          0  Total Private Attrib. .:          8
+  Total Physical Lines ..:        214  Total LOC .............:        158
+  Total eLOC ............:        114  Total lLOC ............:         79
+  Total Cyclomatic Comp. :         31  Total Interface Comp. .:         27
+  Total Parameters ......:         11  Total Return Points ...:         16
+  Total Comment Lines ...:          4  Total Blank Lines .....:         58
+         ------     -----     -----     ------     ------     -----       
+  Avg Physical Lines ....:      42.80  Avg Methods ...........:       2.80
+  Avg Public Methods ....:       2.80  Avg Public Attributes .:       0.00
+  Avg Protected Methods .:       0.00  Avg Protected Attrib. .:       0.00
+  Avg Private Methods ...:       0.00  Avg Private Attributes :       1.60
+  Avg LOC ...............:      31.60  Avg eLOC ..............:      22.80
+  Avg lLOC ..............:      15.80  Avg Cyclomatic Comp. ..:       6.20
+  Avg Interface Comp. ...:       5.40  Avg Parameters ........:       2.20
+  Avg Return Points .....:       3.20  Avg Comment Lines .....:       0.80
+         ------     -----     -----     ------     ------     -----       
+  Max Physical Lines ....:         98  Max Methods ...........:          4
+  Max Public Methods ....:          4  Max Public Attributes .:          0
+  Max Protected Methods .:          0  Max Protected Attrib. .:          0
+  Max Private Methods ...:          0  Max Private Attributes :          3
+  Max LOC ...............:         75  Max eLOC ..............:         53
+  Max lLOC ..............:         40  Max Cyclomatic Comp. ..:         14
+  Max Interface Comp. ...:          8  Max Parameters ........:          5
+  Max Return Points .....:          4  Max Comment Lines .....:          2
+         ------     -----     -----     ------     ------     -----       
+  Min Physical Lines ....:         20  Min Methods ...........:          1
+  Min Public Methods ....:          1  Min Public Attributes .:          0
+  Min Protected Methods .:          0  Min Protected Attrib. .:          0
+  Min Private Methods ...:          0  Min Private Attributes :          0
+  Min LOC ...............:         13  Min eLOC ..............:          9
+  Min lLOC ..............:          3  Min Cyclomatic Comp. ..:          3
+  Min Interface Comp. ...:          3  Min Parameters ........:          0
+  Min Return Points .....:          2  Min Comment Lines .....:          0
+
+  ------------------------------------------------------------------------
+
+                        ~~ Class Inheritance Tree ~~
+
+  D - Depth where base class depth = 0
+  C - Number of direct child classes
+  P - Number of direct parents, Multiple Inheritance > 1
+
+  + Person [D0.C1]
+    - Employee [D1.C0.P1]
+
+  + Personnel [D0.C0]
+
+  + PersonnelDirectory [D0.C0]
+
+  + PersonnelFactory [D0.C0]
+
+  Total Classes        : 5
+  Total Base Classes   : 4
+  Total Derived Classes: 1
+  Derived/Based Ratio  : 0.25  
+
+  Maximum Depth of Inheritance: 1
+  Average Depth of Inheritance: 0.20  
+
+  Maximum Number of Direct Child Classes: 1
+  Average Number of Direct Child Classes: 0.20  
+
+  ------------------------------------------------------------------------
+
+                             ~~ File Summary ~~
+
+  C Source Files *.c ....:          0  C/C++ Include Files *.h:          0
+  C++ Source Files *.c* .:          0  C++ Include Files *.h* :          0
+  C# Source Files *.cs ..:          0  Java Source File *.jav*:          5
+  Other File Count ......:          0  Total File Count ......:          5
+
+
+          Shareware evaluation licenses process only 20 files.
+          Paid licenses enable processing for an unlimited number of files.
+
+  ________________________________________________________________________
+
+                      Report Banner - Edit rsm.cfg File
